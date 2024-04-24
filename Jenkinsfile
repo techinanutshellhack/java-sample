@@ -1,11 +1,11 @@
 pipeline{
 
 agent{  //the agent is the vm that all the Jenkins jobs run. In production, use a dedicated agent
-         agent any
+        agent any
     }
     tools {
         jdk 'Java8' //this installs java 
-        maven 'Maven3' //This install maven 
+        maven 'Maven3.3.1' //This install maven 
        
     }
     environment {
