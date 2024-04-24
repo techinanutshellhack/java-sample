@@ -1,7 +1,7 @@
 pipeline{
 
 agent{  //the agent is the vm that all the Jenkins jobs run. In production, use a dedicated agent
-        agent any
+         any
     }
     tools {
         jdk 'Java8' //this installs java 
