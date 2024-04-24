@@ -24,7 +24,7 @@ pipeline{
     
         stage("Checkout from SCM"){//check out the code from git repo into the jenkins workspace 
             steps {
-                git branch: 'jenkins', credentialsId: 'git', url: 'https://github.com/techinanutshellhack/java-sample.git'
+                git branch: 'main', credentialsId: 'git', url: 'https://github.com/techinanutshellhack/java-sample.git'
             }
 
         }
