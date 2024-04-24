@@ -1,5 +1,5 @@
 pipeline{
-    agent any
+    label "agent1"
     tools {
         jdk 'Java8' //this installs java 
         maven 'maven3.3.1' //This install maven 
