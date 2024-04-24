@@ -2,7 +2,7 @@ pipeline{
     agent any
     tools {
         jdk 'Java8' //this installs java 
-        maven 'Maven3.3.1' //This install maven 
+        maven 'maven3.3.1' //This install maven 
        
     }
     environment {
