@@ -9,9 +9,9 @@ agent{  //the agent is the vm that all the Jenkins jobs run. In production, use 
        
     }
     environment {
-        APP_NAME = "your app name"
+        APP_NAME = "java-sample"
         RELEASE_NUMBER = "1.0"
-        DOCKER_USER = "your docker user ID"
+        DOCKER_USER = "sweetpeaito"
         DOCKER_PASS = 'docker'//This is a secret that will be set up and used to sign into docker. it will be setup in docker hub as an access token
         IMAGE_NAME = "${DOCKER_USER}" + "/" + "${APP_NAME}"
         IMAGE_TAG = "${RELEASE_NUMBER}"
@@ -69,3 +69,4 @@ agent{  //the agent is the vm that all the Jenkins jobs run. In production, use 
              }
         }
     }
+}
