@@ -33,6 +33,11 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+		<dependency>
+            <groupId>com.google.inject</groupId>S
+            <artifactId>guice</artifactId>
+            <version>5.0.1</version> <!-- Choose the version you want to use -->
+        </dependency>
 	</dependencies>
 
 	<build>
