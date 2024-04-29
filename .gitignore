@@ -1,30 +1,14 @@
-HELP.md
-/target/
-!.mvn/wrapper/maven-wrapper.jar
-*.DS_Store
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+minikube-linux-amd64
+configmap-argocd
 
-### STS ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
+# Local History for Visual Studio Code
+.history/
 
-### IntelliJ IDEA ###
-.idea
-*.iws
-*.iml
-*.ipr
-
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
-/build/
-
-### VS Code ###
-.vscode/
+# Built Visual Studio Code Extensions
+*.vsix
